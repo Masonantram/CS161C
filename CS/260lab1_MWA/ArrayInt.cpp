@@ -59,3 +59,34 @@ void ArrayInt::deleteLast()
         empty = true;
     }
 }
+
+void ArrayInt::resize (int value)
+{
+   if (value > size) {
+       int *temp = new int[value];
+       for (int i = 0; i < size; i++) {
+           temp[i] = theArray[i];
+       }
+       theArray = temp;
+       size = value;
+   }
+}
+
+std::string ArrayInt::listElements()
+{
+    if (empty)
+    {
+        return "Empty Array";
+    }
+    else
+    {
+        std::string answer;
+
+        for (int i = 0; i <= lastIndex; i++)
+        {
+            answer += std::to_string(theArray[i]);
+            answer += " ,";
+        }
+        return answer;
+    }
+}

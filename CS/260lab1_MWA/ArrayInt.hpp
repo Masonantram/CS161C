@@ -27,6 +27,8 @@ public:
     void append (int value);
     int getLast();
     void deleteLast();
+    void resize (int value);
+    std::string listElements();
 };
 
 #endif //INC_260LAB1_MWA_ARRAYINT_HPP
