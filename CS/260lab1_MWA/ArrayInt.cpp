@@ -25,18 +25,37 @@ void ArrayInt::append (int value) // need to incorporate exception handling
         theArray[++lastIndex] = value;
     }
 
+    if (lastIndex == size)
+    {
+        int* temp = new int [size *2];
+        for (int i = 0; i < size; i++)
+        {
+            temp[i] = theArray[i];
+        }
+        theArray = temp;
+        size = size*2;
+    }
 }
 
 int ArrayInt::getLast () {
 
-    if (lastIndex >= 0) {
-        return theArray[lastIndex];
+    if (empty) {
+        throw std::out_of_range("Array is empty!");
     }
+
+    return theArray[lastIndex];
 }
 
 void ArrayInt::deleteLast()
 {
-    if (lastIndex > 0) {
+    if (empty)
+    {
+        throw std::out_of_range("Array is empty!");
+    }
         lastIndex--;
+
+    if (lastIndex < 0)
+    {
+        empty = true;
     }
 }
