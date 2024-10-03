@@ -29,6 +29,15 @@ public:
     void deleteLast();
     void resize (int value);
     std::string listElements();
+    void insertAt(int index, int value);
+    int removeAt(int index);
+    bool find (int value);
+    bool findRemove(int value);
+    int findLargest();
+    void removeLargest();
+    int getAt(int index);
+    void setAt(int index, int value);
+
 };
 
 #endif //INC_260LAB1_MWA_ARRAYINT_HPP
