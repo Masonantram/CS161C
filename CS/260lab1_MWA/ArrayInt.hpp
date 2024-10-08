@@ -37,6 +37,8 @@ public:
     void removeLargest();
     int getAt(int index);
     void setAt(int index, int value);
+    void solveThink(int array[], int count);
+
 
 };
 

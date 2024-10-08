@@ -246,29 +246,18 @@ void ArrayInt::setAt(int index, int value)
 
 }
 
+void ArrayInt::solveThink(int array[], int count)
+{
+    ArrayInt temp;
 
+    for (int i = 0; i < count; i++) {
+        temp.append(array[i]);
+    }
 
+    for (int i = 0; i < count; i++) {
+        append(temp.findLargest());
+        temp.findRemove(temp.findLargest());
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
