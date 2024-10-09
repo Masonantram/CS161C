@@ -1,7 +1,7 @@
 //
 // Created by mason on 10/7/2024.
 //
-
+#include <string>
 #ifndef DEQUE_DEQUE_HPP
 #define DEQUE_DEQUE_HPP
 
@@ -22,6 +22,7 @@ public:
     void addTail(int value);
     int removeHead();
     bool isEmpty();
+    std::string dumpArray();
     void resize();
 
 };

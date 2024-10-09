@@ -2,8 +2,8 @@
 #include <iostream>
 #include <stdexcept>
 
-#define QUEUE_TEST
-//#define RESIZE_TEST
+//#define QUEUE_TEST
+#define RESIZE_TEST
 //#define LIST_TEST
 //#define ADD_HEAD_TEST
 //#define REMOVE_TAIL_TEST
@@ -71,7 +71,7 @@ int main() {
   std::cout << "Expected 17 19 21 23 9 11 13 15" << std::endl;
   std::cout << "Actually " << resize.dumpArray() << std::endl;
 
-  std::cout << "\nNow adding eight more" << std::endl;
+  std::cout << "\nNow adding eight more" << std::endl; // it works until this point
   for (int i = 0; i < NUM_RESIZE; i++) {
     resize.addTail(2 * num + 1);
     num += 1;
