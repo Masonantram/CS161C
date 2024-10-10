@@ -24,6 +24,7 @@ public:
     bool isEmpty();
     std::string dumpArray();
     void resize();
+    std::string listQueue();
 
 };
 

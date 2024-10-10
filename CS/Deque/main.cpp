@@ -2,9 +2,9 @@
 #include <iostream>
 #include <stdexcept>
 
-//#define QUEUE_TEST
+#define QUEUE_TEST
 #define RESIZE_TEST
-//#define LIST_TEST
+#define LIST_TEST
 //#define ADD_HEAD_TEST
 //#define REMOVE_TAIL_TEST
 //#define REV_QUEUE_TEST

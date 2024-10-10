@@ -26,6 +26,17 @@ void Deque::addTail(int value)
     {
         tail= 0;
     }
+
+ /*   std::cout << '\n' << "after adding " << value << " array is now "; //test
+    for (int i = 0; i < size; i++)
+    {
+        if (array[i] < 0 || array[i] > 99)
+        {
+            array[i] = 0;
+        }
+        std::cout << array[i] << " ";
+    }
+    std::cout << '\n';*/
 }
 
 int Deque::removeHead()
@@ -42,6 +53,17 @@ int Deque::removeHead()
     {
         head = 0;
     }
+
+   /* std::cout << '\n' << "array is now "; //test
+    for (int i = head; i < size; i++)
+    {
+        if (array[i] < 0 || array[i] > 99)
+        {
+            array[i] = 0;
+        }
+        std::cout << array[i] << " ";
+    }
+    std::cout << '\n';*/
 
     return array[head];
 }
@@ -81,7 +103,7 @@ void Deque::resize()
        }
        array = temp;
        size *= 2;
-       head = -1;
+       head = 0;
        tail = count;
    }
    else
@@ -103,8 +125,55 @@ void Deque::resize()
 
        array = temp;
        size *=2;
-       head = -1;
+       head = 0;
        tail = count;
    }
 
+}
+
+std::string Deque::listQueue()
+{
+    std::string answer;
+
+  /*  std::cout << '\n' << "head = " << head << "and tail = " << tail << "and count = " << count << '\n';
+    for (int i = 0; i < size; i++)
+    {
+        if (array[i] < 0 || array[i] > 99)
+        {
+            array[i] = 0;
+        }
+        answer += std::to_string(array[i]);
+        answer += " ";
+    }*/
+
+    if (head <= 0)
+    {
+        for (int i = 0; i < count; i++)
+        {
+            answer += std::to_string(array[i]);
+            answer += " ";
+        }
+
+    }
+    else
+    {
+        int start = head + 1;
+        int index = 0;
+
+        for (int i = start; i <= count; i++)
+        {
+            answer += std::to_string(array[i]);
+            answer += " ";
+
+        }
+
+        for (int i = 0; i < tail; i++)
+        {
+            answer += std::to_string(array[i]);
+            answer += " ";
+        }
+    }
+
+
+    return answer;
 }
