@@ -12,7 +12,7 @@ Deque::Deque(int size): size(size), head(-1), tail(0), count(0)
 
 Deque::~Deque() { delete[] array;}
 
-void Deque::addTail(int value) // program works until we add eight more numbers
+void Deque::addTail(int value)
 {
     if (count == size)
     {
@@ -26,19 +26,6 @@ void Deque::addTail(int value) // program works until we add eight more numbers
     {
         tail= 0;
     }
-
-  /* std::cout << "head is " << head << " and tail is = " << tail << '\n';
-    std::cout << "adding " << value << '\n';
-    std::cout << "array is now ";
-    for (int i = 0; i < size; i++)
-    {
-        if (array[i] < 0 || array[i] > 40)
-        {
-            array[i] = 0;
-        }
-        std::cout << array[i] << " ";
-    }
-    std::cout << '\n';*/
 }
 
 int Deque::removeHead()
@@ -80,43 +67,33 @@ std::string Deque::dumpArray()
    }
 
     return answer;
-
 }
-
-
 
 void Deque::resize()
 {
     int* temp = new int[size *2];
 
-    std::cout << "array before resizing is ";
-
-    for (int i = 0; i < size; i++)
-    {
-        std::cout << array[i] << " ";
-    }
-    std::cout << '\n';
-
    if (head <= 0)
    {
-       std::cout << "head <= 0"<< '\n';
        for (int i = 0; i < size; i++)
        {
            temp[i] = array[i];
        }
        array = temp;
        size *= 2;
-       head = 0;
-       tail = count - 1;
+       head = -1;
+       tail = count;
    }
    else
    {
-       int start = head;
+       int start = head + 1;
        int index = 0;
 
        while (start < size)
        {
            temp[index++] = array[start++];
+
+
        }
 
        for (int i = 0; i < tail; i++)
@@ -126,8 +103,8 @@ void Deque::resize()
 
        array = temp;
        size *=2;
-       head = 0;
-       tail = count - 1;
+       head = -1;
+       tail = count;
    }
 
 }
