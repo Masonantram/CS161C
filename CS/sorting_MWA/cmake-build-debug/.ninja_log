@@ -1,0 +1,24 @@
+# ninja log v5
+3	729	7275814321124062	CMakeFiles/sorting_MWA.dir/main.cpp.obj	d70e74e929b332fc
+820	927	7275837472677682	sorting_MWA.exe	30a8a32f92bd7e50
+1	474	7277747865385087	build.ninja	d5eef2de622907bc
+6	819	7275837471620182	CMakeFiles/sorting_MWA.dir/Implementation.cpp.obj	3718346b9863a3b9
+5	788	7278590859887389	CMakeFiles/sorting_MWA.dir/main.cpp.obj	d70e74e929b332fc
+789	1407	7278590866000137	sorting_MWA.exe	30a8a32f92bd7e50
+5	556	7278591643204817	CMakeFiles/sorting_MWA.dir/main.cpp.obj	d70e74e929b332fc
+556	678	7278591644387496	sorting_MWA.exe	30a8a32f92bd7e50
+5	536	7278593079879246	CMakeFiles/sorting_MWA.dir/main.cpp.obj	d70e74e929b332fc
+540	660	7278593081083541	sorting_MWA.exe	30a8a32f92bd7e50
+3	661	7278596614539150	CMakeFiles/sorting_MWA.dir/Implementation.cpp.obj	3718346b9863a3b9
+662	783	7278596615715988	sorting_MWA.exe	30a8a32f92bd7e50
+4	686	7278597077049929	CMakeFiles/sorting_MWA.dir/Implementation.cpp.obj	3718346b9863a3b9
+687	825	7278597078417118	sorting_MWA.exe	30a8a32f92bd7e50
+3	817	7278597533591498	CMakeFiles/sorting_MWA.dir/Implementation.cpp.obj	3718346b9863a3b9
+818	1007	7278597535498749	sorting_MWA.exe	30a8a32f92bd7e50
+5	627	7278606166214507	CMakeFiles/sorting_MWA.dir/main.cpp.obj	d70e74e929b332fc
+12	730	7278606167253760	CMakeFiles/sorting_MWA.dir/Implementation.cpp.obj	3718346b9863a3b9
+730	887	7278606168778406	sorting_MWA.exe	30a8a32f92bd7e50
+5	636	7278606585801742	CMakeFiles/sorting_MWA.dir/main.cpp.obj	d70e74e929b332fc
+638	878	7278606588155050	sorting_MWA.exe	30a8a32f92bd7e50
+5	539	7278608030682304	CMakeFiles/sorting_MWA.dir/main.cpp.obj	d70e74e929b332fc
+540	648	7278608031723335	sorting_MWA.exe	30a8a32f92bd7e50

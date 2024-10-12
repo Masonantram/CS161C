@@ -1,0 +1,21 @@
+# ninja log v6
+27	689	7446229757255673	CMakeFiles/14_LongestCommonPrefix.dir/main.cpp.obj	9cebb778dd6481c9
+690	800	7446229763893201	14_LongestCommonPrefix.exe	3865a561a1d6cd42
+31	708	7446234999274734	CMakeFiles/14_LongestCommonPrefix.dir/main.cpp.obj	9cebb778dd6481c9
+709	839	7446235006054775	14_LongestCommonPrefix.exe	3865a561a1d6cd42
+29	699	7446242573096464	CMakeFiles/14_LongestCommonPrefix.dir/main.cpp.obj	9cebb778dd6481c9
+700	828	7446242579806374	14_LongestCommonPrefix.exe	3865a561a1d6cd42
+21	591	7446242828470001	CMakeFiles/14_LongestCommonPrefix.dir/main.cpp.obj	9cebb778dd6481c9
+592	699	7446242834167494	14_LongestCommonPrefix.exe	3865a561a1d6cd42
+25	681	7446244591931887	CMakeFiles/14_LongestCommonPrefix.dir/main.cpp.obj	9cebb778dd6481c9
+682	793	7446244598507884	14_LongestCommonPrefix.exe	3865a561a1d6cd42
+22	578	7446244713116837	CMakeFiles/14_LongestCommonPrefix.dir/main.cpp.obj	9cebb778dd6481c9
+579	708	7446244718684083	14_LongestCommonPrefix.exe	3865a561a1d6cd42
+25	635	7446245963272875	CMakeFiles/14_LongestCommonPrefix.dir/main.cpp.obj	9cebb778dd6481c9
+636	754	7446245969389771	14_LongestCommonPrefix.exe	3865a561a1d6cd42
+26	630	7446246874776872	CMakeFiles/14_LongestCommonPrefix.dir/main.cpp.obj	9cebb778dd6481c9
+631	750	7446246880822768	14_LongestCommonPrefix.exe	3865a561a1d6cd42
+32	666	7446247169704751	CMakeFiles/14_LongestCommonPrefix.dir/main.cpp.obj	9cebb778dd6481c9
+666	776	7446247176050252	14_LongestCommonPrefix.exe	3865a561a1d6cd42
+28	614	7446248240588937	CMakeFiles/14_LongestCommonPrefix.dir/main.cpp.obj	9cebb778dd6481c9
+615	725	7446248246466076	14_LongestCommonPrefix.exe	3865a561a1d6cd42

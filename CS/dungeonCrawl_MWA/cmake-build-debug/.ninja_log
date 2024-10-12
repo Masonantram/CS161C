@@ -1,0 +1,9 @@
+# ninja log v5
+785	904	7292969666341825	dungeonCrawl_MWA.exe	4d3816e7a49efd59
+5	676	7292969664117778	CMakeFiles/dungeonCrawl_MWA.dir/main.cpp.obj	b598ad7f7166d190
+1	394	7430664244635851	build.ninja	14a0745dc917e9eb
+10	784	7292969665194889	CMakeFiles/dungeonCrawl_MWA.dir/Implementation.cpp.obj	462653cc452563b2
+1	315	7430664244635851	build.ninja	14a0745dc917e9eb
+4	1078	7430664256736180	CMakeFiles/dungeonCrawl_MWA.dir/Implementation.cpp.obj	462653cc452563b2
+7	1082	7430664256736180	CMakeFiles/dungeonCrawl_MWA.dir/main.cpp.obj	b598ad7f7166d190
+1082	1432	7430664260273551	dungeonCrawl_MWA.exe	4d3816e7a49efd59

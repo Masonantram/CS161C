@@ -1,0 +1,13 @@
+# ninja log v5
+5	1485	7327602960836812	CMakeFiles/FinalPractice.dir/main.cpp.obj	8f64f5d1a28aec95
+3	737	7327626965898849	CMakeFiles/FinalPractice.dir/Header.cpp.obj	839b7dc81f3fa546
+738	849	7327626967127069	FinalPractice.exe	cc507961fb59782e
+5	751	7327759956398470	CMakeFiles/FinalPractice.dir/main.cpp.obj	8f64f5d1a28aec95
+17	1070	7327759959591955	CMakeFiles/FinalPractice.dir/Implementation.cpp.obj	8a37440762691949
+1071	1198	7327759960833217	FinalPractice.exe	ca8e66a2f702014b
+5	1555	7327822831397110	CMakeFiles/FinalPractice.dir/main.cpp.obj	8f64f5d1a28aec95
+13	1913	7327822835331227	CMakeFiles/FinalPractice.dir/Implementation.cpp.obj	8a37440762691949
+1914	2103	7327822837205335	FinalPractice.exe	ca8e66a2f702014b
+3	685	7328811198730343	CMakeFiles/FinalPractice.dir/main.cpp.obj	8f64f5d1a28aec95
+8	961	7328811201482988	CMakeFiles/FinalPractice.dir/Implementation.cpp.obj	8a37440762691949
+961	1105	7328811202869280	FinalPractice.exe	ca8e66a2f702014b

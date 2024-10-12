@@ -1,0 +1,3 @@
+C:/Users/mason/CLionProjects/wk3Exercise/cmake-build-debug/CMakeFiles/wk3Exercise.dir
+C:/Users/mason/CLionProjects/wk3Exercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mason/CLionProjects/wk3Exercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir

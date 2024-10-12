@@ -1,0 +1,13 @@
+# ninja log v5
+6	860	7324160736728720	CMakeFiles/lab7_MWA.dir/main.cpp.obj	c8acb03de3b20a63
+7	919	7324138890091765	CMakeFiles/lab7_MWA.dir/Header.cpp.obj	d8bf3c542602faf4
+1417	1539	7324160743510582	lab7_MWA.exe	536c692882b30829
+2	247	7324166676400895	build.ninja	a6870250793bfb8b
+13	1098	7324160738394263	CMakeFiles/lab7_MWA.dir/Player_Class.cpp.obj	3216c010c401dfac
+860	1417	7324160742353688	CMakeFiles/lab7_MWA.dir/Person_Class.cpp.obj	f8113ff47672d06a
+17	1099	7324160738962753	CMakeFiles/lab7_MWA.dir/Implementation.cpp.obj	bf362c7a949c5888
+20	1261	7324171418511627	CMakeFiles/lab7_MWA.dir/Implementation.cpp.obj	bf362c7a949c5888
+14	1279	7324171418641284	CMakeFiles/lab7_MWA.dir/Player_Class.cpp.obj	3216c010c401dfac
+7	1300	7324171418342095	CMakeFiles/lab7_MWA.dir/main.cpp.obj	c8acb03de3b20a63
+1265	1959	7324171425732332	CMakeFiles/lab7_MWA.dir/Person_Class.cpp.obj	f8113ff47672d06a
+1959	2115	7324171427238295	lab7_MWA.exe	536c692882b30829

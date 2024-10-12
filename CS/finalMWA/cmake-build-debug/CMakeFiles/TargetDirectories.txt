@@ -1,0 +1,3 @@
+C:/Users/mason/CLionProjects/finalMWA/cmake-build-debug/CMakeFiles/finalMWA.dir
+C:/Users/mason/CLionProjects/finalMWA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mason/CLionProjects/finalMWA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

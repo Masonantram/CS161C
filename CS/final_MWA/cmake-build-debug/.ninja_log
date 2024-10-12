@@ -1,0 +1,8 @@
+# ninja log v5
+4	964	7328807938414074	CMakeFiles/final_MWA.dir/main.cpp.obj	d4a1119f0be98435
+6	877	7328692678513791	CMakeFiles/final_MWA.dir/Header.cpp.obj	566bda6e0a0edf46
+1686	1855	7328747701461273	final_MWA.exe	990bcc80a251d48c
+2	249	7328809672857786	build.ninja	d046308f44b92ba6
+9	1244	7328807941186686	CMakeFiles/final_MWA.dir/Implementation.cpp.obj	820db8a14b2d257f
+6	853	7328810218776040	CMakeFiles/final_MWA.dir/main.cpp.obj	d4a1119f0be98435
+13	1176	7328810221987451	CMakeFiles/final_MWA.dir/Implementation.cpp.obj	820db8a14b2d257f

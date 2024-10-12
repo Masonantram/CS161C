@@ -1,0 +1,3 @@
+C:/Users/mason/CLionProjects/Midtermlab1_MWA/cmake-build-debug/CMakeFiles/midtermpractice2.dir
+C:/Users/mason/CLionProjects/Midtermlab1_MWA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mason/CLionProjects/Midtermlab1_MWA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

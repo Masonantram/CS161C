@@ -1,0 +1,3 @@
+C:/Users/mason/CLionProjects/DataValidation2/cmake-build-debug/CMakeFiles/DataValidation2.dir
+C:/Users/mason/CLionProjects/DataValidation2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mason/CLionProjects/DataValidation2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

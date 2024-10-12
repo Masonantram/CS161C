@@ -1,0 +1,15 @@
+# ninja log v5
+2	222	7316419930553246	build.ninja	dd335da374c6141b
+12	1133	7316418657254454	CMakeFiles/lab6_MWA.dir/Implementation.cpp.obj	6c8aa56c7a364aa6
+4	966	7316418655572972	CMakeFiles/lab6_MWA.dir/main.cpp.obj	cba39fc84514753c
+1133	1352	7316418659408700	lab6_MWA.exe	df08aad0bc967c96
+11	558	7315744562743026	CMakeFiles/lab6_MWA.dir/Methods.cpp.obj	f43cfabee4d3dcc9
+4	1375	7316421184978405	CMakeFiles/lab6_MWA.dir/main.cpp.obj	cba39fc84514753c
+11	1603	7316421187282725	CMakeFiles/lab6_MWA.dir/Implementation.cpp.obj	6c8aa56c7a364aa6
+1603	1787	7316421189067118	lab6_MWA.exe	df08aad0bc967c96
+4	715	7324165695906094	CMakeFiles/lab6_MWA.dir/main.cpp.obj	cba39fc84514753c
+10	866	7324165697422039	CMakeFiles/lab6_MWA.dir/Implementation.cpp.obj	6c8aa56c7a364aa6
+12	596	7324165891826541	CMakeFiles/lab6_MWA.dir/Methods.cpp.obj	f43cfabee4d3dcc9
+3	721	7324165893202859	CMakeFiles/lab6_MWA.dir/main.cpp.obj	cba39fc84514753c
+8	860	7324165894609103	CMakeFiles/lab6_MWA.dir/Implementation.cpp.obj	6c8aa56c7a364aa6
+861	988	7324165895835813	lab6_MWA.exe	df08aad0bc967c96
