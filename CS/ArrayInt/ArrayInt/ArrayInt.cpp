@@ -25,7 +25,7 @@ void ArrayInt::append (int value)
         theArray[++lastIndex] = value;
     }
 
-    if (lastIndex == size)
+   /* if (lastIndex == size)
     {
         int* temp = new int [size *2];
         for (int i = 0; i <= size; i++)
@@ -34,7 +34,7 @@ void ArrayInt::append (int value)
         }
         theArray = temp;
         size = size*2;
-    }
+    }*/
 }
 
 int ArrayInt::getLast () {
@@ -260,30 +260,4 @@ void ArrayInt::solveThink(int array[], int count)
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
