@@ -2,11 +2,11 @@
 #include <iostream>
 #include <stdexcept>
 
-//#define QUEUE_TEST
-//#define RESIZE_TEST
-//#define LIST_TEST
-//#define ADD_HEAD_TEST
-//#define REMOVE_TAIL_TEST
+#define QUEUE_TEST
+#define RESIZE_TEST
+#define LIST_TEST
+#define ADD_HEAD_TEST
+#define REMOVE_TAIL_TEST
 #define REV_QUEUE_TEST
 //#define MIX_TEST
 //#define THINK_TEST
@@ -209,7 +209,7 @@ int main() {
   std::cout << "Now dumping array" << std::endl;
   std::cout << "Expected 14 12 10 8 22 20 18 16" << std::endl;
   std::cout << "Actually " << revQueue.dumpArray() << std::endl;
-
+std::cout << "head is " << revQueue.getHead() << "and tail is " << revQueue.getTail() << '\n';
   std::cout << "\nNow adding eight more to force resize" << std::endl;
   for (int i = 0; i < NUM_REV_QUEUE; i++) {
     revQueue.addHead(2 * num);
