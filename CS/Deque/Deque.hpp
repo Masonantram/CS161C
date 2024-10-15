@@ -28,6 +28,10 @@ public:
     void addHead(int value);
     int removeTail();
 
+    int getHead() {return head;}
+    int getTail() {return tail;}
+    int getCount() {return count;}
+    int getSize() {return size;}
 };
 
 

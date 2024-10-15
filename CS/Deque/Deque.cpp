@@ -26,17 +26,6 @@ void Deque::addTail(int value)
     {
         tail= 0;
     }
-
- /*   std::cout << '\n' << "after adding " << value << " array is now "; //test
-    for (int i = 0; i < size; i++)
-    {
-        if (array[i] < 0 || array[i] > 99)
-        {
-            array[i] = 0;
-        }
-        std::cout << array[i] << " ";
-    }
-    std::cout << '\n';*/
 }
 
 int Deque::removeHead()
@@ -47,7 +36,6 @@ int Deque::removeHead()
     }
 
     count--;
-    head++;
 
     if (head >= size)
     {
@@ -65,7 +53,7 @@ int Deque::removeHead()
     }
     std::cout << '\n';*/
 
-    return array[head];
+    return array[head++];
 }
 
 bool Deque::isEmpty()
@@ -82,7 +70,7 @@ std::string Deque::dumpArray()
 {
     std::string answer;
 
-   for (int i = 0; i < size; i++)
+   for (int i = 0; i < count; i++)
    {
        answer += std::to_string(array[i]);
        answer += " ";
@@ -185,20 +173,30 @@ void Deque::addHead(int value)
         resize();
     }
 
-if (head <= 0)
+    if (head <= 0)
     {
-        head = size - 1;
+        head = size;
     }
 
+   // std::cout << "head before adding " << value << " is " << head << '\n';
 
-    array[head--] = value;
+    array[--head] = value;
+   // std::cout << "head after adding is " << head << '\n';
+
+    for (int i = 0; i < size; i++)
+    {
+        if (array[i] > 40 || array[i] < 0)
+        {
+            array[i] = 0;
+        }
+        std::cout << array[i] << " ";
+    }
+    std::cout << '\n'; // test display
     count++;
 }
 
 int Deque::removeTail()
 {
-    int answer;
-
     if (count == 0)
     {
         throw std::out_of_range("Array is empty");
@@ -206,12 +204,14 @@ int Deque::removeTail()
 
     count--;
 
-    if (tail - 1 < 0)
+   // std::cout << "tail before removing is " << tail << '\n';
+    if (tail <= 0)
     {
-        answer = array[tail];
-        tail = size - 1;
-        return answer;
+        tail = size;
+
     }
-    else {return array[--tail];}
+
+        return array[--tail];
+
 
 }

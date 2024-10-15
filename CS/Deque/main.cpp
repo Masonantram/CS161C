@@ -134,6 +134,7 @@ int main() {
   std::cout << "Testing addHead\n" << std::endl;
 
   std::cout << "Adding seven values to head" << std::endl;
+  std::cout << "head = " << head.getHead() << '\n';
   for (int i = 0; i < NUM_HEAD; i++) {
     head.addHead(headValues[i]);
   }
@@ -193,7 +194,9 @@ int main() {
   std::cout << "Expected 0 2 4 6" << std::endl;
   std::cout << "Actually ";
   for (int i = 0; i < NUM_REV_ADD; i++) {
+//      std::cout << "tail before removing is = " << revQueue.getTail() << '\n';
     std::cout << revQueue.removeTail() << " ";
+ //     std::cout << "tail after removing is = " << revQueue.getTail() << '\n';
   }
   std::cout << std::endl;
 
