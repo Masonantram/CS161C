@@ -115,7 +115,7 @@ int main() {
   for (int i = 0; i < NUM_LIST_EXTRA; i++) {
     list.addTail(listValues[num]);
     num += 1;
-    // std::cout << "Now " << list.dumpArray() << std::endl;//drm
+    // std::cout << "Now " << list.dumpArray() << std::endl;//
   }
 
   std::cout << "Testing list after wrap" << std::endl;
@@ -138,7 +138,7 @@ int main() {
   for (int i = 0; i < NUM_HEAD; i++) {
     head.addHead(headValues[i]);
   }
-
+std::cout << "head is " << head.getHead() << '\n';
   std::cout << "Now removing from head" << std::endl;
   std::cout << "Expected 19 17 13 11 7 5 3" << std::endl;
   std::cout << "Actually ";

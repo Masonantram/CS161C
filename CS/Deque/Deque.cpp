@@ -39,7 +39,7 @@ int Deque::removeHead()
 
     if (head >= size)
     {
-        head = 0;
+        head = -1;
     }
 
    /* std::cout << '\n' << "array is now "; //test
@@ -91,7 +91,7 @@ void Deque::resize()
        }
        array = temp;
        size *= 2;
-       head = 0;
+       head = -1;
        tail = count;
    }
    else
@@ -113,7 +113,7 @@ void Deque::resize()
 
        array = temp;
        size *=2;
-       head = 0;
+       head = -1;
        tail = count;
    }
 
@@ -211,7 +211,7 @@ int Deque::removeTail()
 
     }
 
-        return array[--tail];
+        return array[tail--];
 
 
 }

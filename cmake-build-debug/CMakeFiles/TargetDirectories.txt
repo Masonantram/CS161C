@@ -1,3 +1,0 @@
-C:/Users/mason/Documents/GitHub/CS161C/cmake-build-debug/CMakeFiles/CS161C.dir
-C:/Users/mason/Documents/GitHub/CS161C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mason/Documents/GitHub/CS161C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
