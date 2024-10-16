@@ -71,7 +71,7 @@ int main() {
   std::cout << "Expected 17 19 21 23 9 11 13 15" << std::endl;
   std::cout << "Actually " << resize.dumpArray() << std::endl;
 
-  std::cout << "\nNow adding eight more" << std::endl; // it works until this point
+  std::cout << "\nNow adding eight more" << std::endl;
   for (int i = 0; i < NUM_RESIZE; i++) {
     resize.addTail(2 * num + 1);
     num += 1;
@@ -115,7 +115,6 @@ int main() {
   for (int i = 0; i < NUM_LIST_EXTRA; i++) {
     list.addTail(listValues[num]);
     num += 1;
-    // std::cout << "Now " << list.dumpArray() << std::endl;//
   }
 
   std::cout << "Testing list after wrap" << std::endl;
@@ -134,11 +133,10 @@ int main() {
   std::cout << "Testing addHead\n" << std::endl;
 
   std::cout << "Adding seven values to head" << std::endl;
-  std::cout << "head = " << head.getHead() << '\n';
   for (int i = 0; i < NUM_HEAD; i++) {
     head.addHead(headValues[i]);
   }
-std::cout << "head is " << head.getHead() << '\n';
+
   std::cout << "Now removing from head" << std::endl;
   std::cout << "Expected 19 17 13 11 7 5 3" << std::endl;
   std::cout << "Actually ";

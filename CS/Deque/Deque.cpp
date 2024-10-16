@@ -53,7 +53,7 @@ int Deque::removeHead()
     }
     std::cout << '\n';*/
 
-    return array[head++];
+    return array[++head];
 }
 
 bool Deque::isEmpty()
@@ -183,7 +183,7 @@ void Deque::addHead(int value)
     array[--head] = value;
    // std::cout << "head after adding is " << head << '\n';
 
-    for (int i = 0; i < size; i++)
+  /*  for (int i = 0; i < size; i++)
     {
         if (array[i] > 40 || array[i] < 0)
         {
@@ -191,7 +191,7 @@ void Deque::addHead(int value)
         }
         std::cout << array[i] << " ";
     }
-    std::cout << '\n'; // test display
+    std::cout << '\n'; // test display*/
     count++;
 }
 
