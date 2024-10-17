@@ -8,8 +8,8 @@
 #define ADD_HEAD_TEST
 #define REMOVE_TAIL_TEST
 #define REV_QUEUE_TEST
-//#define MIX_TEST
-//#define THINK_TEST
+#define MIX_TEST
+#define THINK_TEST
 
 int main() {
     int num = 0;
@@ -76,6 +76,10 @@ int main() {
     resize.addTail(2 * num + 1);
     num += 1;
   }
+  //std::cout << "head = " << resize.getHead() << "   and tail = " << resize.getTail() << '\n';
+   /*std::cout <<  '\n';
+    std::cout << resize.dumpArray();
+    std::cout << '\n';*/
   std::cout << "Expected 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39"
             << std::endl;
   std::cout << "Actually " << resize.dumpArray() << std::endl;

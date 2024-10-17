@@ -212,7 +212,7 @@ int Deque::removeTail()
         throw std::out_of_range("Array is empty in removeTail");
     }
     count--;
-
+    
     if (tail <= 0)
     {
         tail = size;
